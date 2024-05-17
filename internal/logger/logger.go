@@ -17,5 +17,9 @@ func NewLogger() *Logger {
 }
 
 func (*Logger) Info(message string, data interface{}) {
-	log.Println(message, data)
+	if data != nil {
+		log.Println(message, data)
+	} else {
+		log.Println(message)
+	}
 }
