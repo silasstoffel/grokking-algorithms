@@ -18,7 +18,7 @@ func TestSortSelection(t *testing.T) {
 		}
 
 		if sorted[3] != 11 {
-			t.Errorf("Expect %v and received %v at 0 index", 11, sorted[3])
+			t.Errorf("Expect %v and received %v at 3 index", 11, sorted[3])
 		}
 	})
 
