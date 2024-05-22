@@ -1,4 +1,4 @@
-package sortselection
+package selectionsort
 
 import (
 	"fmt"
