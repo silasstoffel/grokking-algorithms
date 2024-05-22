@@ -7,4 +7,7 @@ Practicing from the grokking algorithms book with [golang](https://go.dev)
 ```shell
 # binary search
 go run ./cmd/binary-search/main.go
+
+# selection sort
+go run ./cmd/selection-sort/main.go
 ```
