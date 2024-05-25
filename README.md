@@ -10,4 +10,7 @@ go run ./cmd/binary-search/main.go
 
 # selection sort
 go run ./cmd/selection-sort/main.go
+
+# recursion
+go run ./cmd/recursion/main.go
 ```
