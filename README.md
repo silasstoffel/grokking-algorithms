@@ -13,4 +13,7 @@ go run ./cmd/selection-sort/main.go
 
 # recursion
 go run ./cmd/recursion/main.go
+
+# quick sort
+go run ./cmd/quick-sort/main.go
 ```
