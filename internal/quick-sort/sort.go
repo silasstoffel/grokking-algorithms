@@ -29,12 +29,17 @@ func QuickSort(input []int) []int {
 		}
 	}
 
-	data := fmt.Sprintf("Detail: number of elements: %v pivot %v | less %v | higher %v", size, pivot, less, higher)
+	data := fmt.Sprintf("[QuickSort] [Report] number of elements: %v pivot %v | less %v | higher %v", size, pivot, less, higher)
 	logger := logger.NewLogger()
+	logger.Info("[QuickSort] [Input]", input)
 	logger.Info(data, nil)
 
-	return append(
+	numbers := append(
 		append(QuickSort(less), pivot),
 		QuickSort(higher)...,
 	)
+
+	logger.Info("[QuickSort] [Numbers]", numbers)
+
+	return numbers
 }
