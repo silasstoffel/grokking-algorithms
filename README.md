@@ -19,4 +19,8 @@ go run ./cmd/quick-sort/main.go
 
 # hash table
 go run ./cmd/hash-table/main.go
+
+# bfs (breadth-first search)
+go run cmd/bfs/main.go
+
 ```
