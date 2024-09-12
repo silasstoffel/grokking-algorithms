@@ -1,6 +1,6 @@
 # Grokking-algorithms
 
-Practicing from the grokking algorithms book with [golang](https://go.dev)
+Practicing from the grokking algorithms book with [golang](https://go.dev) and [python](https://www.python.org)
 
 # Algorithms
 
@@ -23,4 +23,6 @@ go run ./cmd/hash-table/main.go
 # bfs (breadth-first search)
 go run cmd/bfs/main.go
 
+# Dijkstra
+python3 ./internal/dijkstra/dijkstra.py
 ```
