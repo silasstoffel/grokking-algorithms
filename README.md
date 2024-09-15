@@ -26,3 +26,11 @@ go run cmd/bfs/main.go
 # Dijkstra
 python3 ./internal/dijkstra/dijkstra.py
 ```
+
+## Greedy algorithms
+
+```shell
+
+# set coverage problem
+python3 ./internal/greedy-algorithms/set-coverage-problem.py
+```
